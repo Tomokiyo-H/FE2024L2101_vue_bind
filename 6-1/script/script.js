@@ -10,7 +10,7 @@ new Vue({
     },
     computed: {
       bindStyle(){
-        return `width: ${this.range}px; heigth: ${this.range}px; background: rgb(${this.red},${this.green},${this.blue})`;
+        return `width: ${this.range}px; height: ${this.range}px; background: rgb(${this.red},${this.green},${this.blue})`;
       }
     }
   });
