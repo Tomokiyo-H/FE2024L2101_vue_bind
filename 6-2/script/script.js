@@ -6,6 +6,8 @@ new Vue({
       };
     },
     methods: {
-      
+      toggleButton(){
+        this.isActive = !this.isActive;
+      }
     }
   });
